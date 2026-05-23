@@ -1,0 +1,33 @@
+site_name: nseindiapy
+site_url: https://skamalj.github.io/nseindiapy/
+repo_url: https://github.com/skamalj/nseindiapy
+repo_name: skamalj/nseindiapy
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: indigo
+  features:
+    - navigation.sections
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Quick Start: quickstart.md
+  - API Reference:
+    - Equity: api/equity.md
+    - Indices: api/indices.md
+    - Derivatives: api/derivatives.md
+    - Market: api/market.md
+    - Corporate: api/corporate.md
+    - IPO: api/ipo.md
+    - Reports: api/reports.md
+    - Archives: api/archives.md
+
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - admonition
+  - toc:
+      permalink: true
